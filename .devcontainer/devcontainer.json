@@ -1,0 +1,12 @@
+{
+  "name": "Pacman Multiplayer",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "backend",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  },
+  "forwardPorts": [8000]
+}
